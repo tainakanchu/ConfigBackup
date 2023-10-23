@@ -1,0 +1,9 @@
+[user]
+	name = tainakanchu
+	email = tainakanchu815@gmail.com
+[push]
+	default = current
+[pull]
+	default = current
+[alias]
+	fp = fetch -p
