@@ -46,8 +46,20 @@
     "curtainChangeSize" : {
       "int" : 0
     },
+    "cycleSizesIsChanged" : {
+      "bool" : false
+    },
     "disabledApps" : {
 
+    },
+    "doubleClickTitleBar" : {
+      "int" : 0
+    },
+    "doubleClickTitleBarIgnoredApps" : {
+
+    },
+    "doubleClickTitleBarRestore" : {
+      "int" : 0
     },
     "dragFromStage" : {
       "int" : 0
@@ -56,7 +68,7 @@
       "int" : 1
     },
     "footprintAlpha" : {
-      "float" : 0.30000001192092896
+      "float" : 0.3
     },
     "footprintAnimationDurationMultiplier" : {
       "float" : 0
@@ -76,8 +88,14 @@
     "gapSize" : {
       "float" : 0
     },
+    "hapticFeedbackOnSnap" : {
+      "int" : 0
+    },
     "hideMenubarIcon" : {
       "bool" : false
+    },
+    "ignoreDragSnapToo" : {
+      "int" : 0
     },
     "ignoredSnapAreas" : {
       "int" : 0
@@ -139,6 +157,12 @@
     "screenEdgeGapTop" : {
       "float" : 0
     },
+    "screenEdgeGapTopNotch" : {
+      "float" : 0
+    },
+    "selectedCycleSizes" : {
+      "int" : 0
+    },
     "shortEdgeSnapAreaSize" : {
       "float" : 145
     },
@@ -179,7 +203,13 @@
       "int" : 1
     },
     "SUEnableAutomaticChecks" : {
-      "bool" : false
+      "bool" : true
+    },
+    "systemWideMouseDown" : {
+      "int" : 0
+    },
+    "systemWideMouseDownApps" : {
+
     },
     "todo" : {
       "int" : 0
@@ -189,6 +219,9 @@
     },
     "todoMode" : {
       "bool" : false
+    },
+    "todoSidebarSide" : {
+      "int" : 1
     },
     "todoSidebarWidth" : {
       "float" : 400
@@ -264,6 +297,10 @@
       "keyCode" : 123,
       "modifierFlags" : 1835008
     },
+    "reflowTodo" : {
+      "keyCode" : 45,
+      "modifierFlags" : 786432
+    },
     "restore" : {
       "keyCode" : 51,
       "modifierFlags" : 786432
@@ -274,6 +311,10 @@
     },
     "smaller" : {
       "keyCode" : 27,
+      "modifierFlags" : 786432
+    },
+    "toggleTodo" : {
+      "keyCode" : 11,
       "modifierFlags" : 786432
     },
     "topHalf" : {
@@ -289,5 +330,5 @@
       "modifierFlags" : 1310720
     }
   },
-  "version" : "71"
+  "version" : "92"
 }
